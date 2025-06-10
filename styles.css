@@ -349,43 +349,7 @@ footer a:hover{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*RESPONSIVE DESIGN */
 
 @media (max-width: 950px){
     
@@ -415,6 +379,28 @@ footer a:hover{
 .features-title-3,
 .benefits-features-3{
     font-size: 0.75rem;
+    font-weight: 900px;
+}
+}
+@media (max-width: 660px) {
+    .features-title-1,
+.benefits-features-1,
+.features-title-2,
+.benefits-features-2,
+.features-title-3,
+.benefits-features-3{
+    font-size: 1rem;
+    font-weight: 900px;
+}
+}
+@media (max-width: 450px) {
+    .features-title-1,
+.benefits-features-1,
+.features-title-2,
+.benefits-features-2,
+.features-title-3,
+.benefits-features-3{
+    font-size: 0.82rem;
     font-weight: 900px;
 }
 }
