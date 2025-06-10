@@ -406,6 +406,6 @@ footer a:hover{
 }
 @media (max-width: 400px) {
     .tech-spec{
-font: size: 17px;
+font-size: 17px;
     }
 }
