@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+             <ul class="sidebar">
+                <li class="navX" onclick=hideSidebar()><svg class="nav-link" xmlns="http://www.w3.org/2000/svg" height="24" width="18" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#ffffff" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#benefits" class="nav-link">Benefits</a></li>
+                <li><a href="#specification" class="nav-link">Specification</a></li>
+                <li> <a href="#preOrder" class="nav-link">Pre-Order</a></li>
+            </ul>
+            <ul>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link hideOnMobile">Features</a></li>
+                <li><a href="#benefits" class="nav-link hideOnMobile">Benefits</a></li>
+                <li><a href="#specification" class="nav-link hideOnMobile">Specification</a></li>
+                <li> <a href="#preOrder" class="nav-link hideOnMobile">Pre-Order</a></li>
+                <li class="menu-btn" onclick=showSidebar()><a href="#" class="nav-link">
+                    <!-- <i class="fa-solid fa-bars fa-lg" style="color: #000000;"></i>-->
+                    <svg xmlns="http://www.w3.org/2000/svg" height="25" width="19.5" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+                    </a></li>
+            </ul>
+            
+        </nav>
+    </header>
+    <main>
+    <section id="home">
+        <div class="home-write-up">
+        <h1 class="headline">Experience The Future of Smartphones with Redmi 14C.</h1> </div>
+        <div class="home-write-up">
+        <h2 class="subheading">Seamless performance, stunning clarity, latest features.</h2> </div>
+         <a href="#preOrder" class="preOrder">Buy Now</a>
+    </section>
+    <section id="features">
+        <h1 class="title">Key Features</h1>
+        <div class="features-title-container">
+        <button class="features-title-1" onclick=toCamera()>
+            <span>01</span>
+            Camera
+        </button>
+        <button class="features-title-2" onclick=toPerformance()>
+            <span>02</span>
+            Performance
+        </button>
+        <button class="features-title-3" onclick=toDisplay()>
+            <span>03</span>
+            Display
+        </button>
+        </div>
+        <div class="all-features-content">
+            <div class="camera-feature-content">
+                <p class="breif-feature-content" style="color: #333; font-size: 26px;">The Redmi 14C has a great camera that captures life's great moment with stunning clarity</p>
+                <p class="main-feature-content">The Phone features a dual-camera setup with a 50Mp primary sensor and a 2Mp depth sensor, allowing for high-quality photos with good detail and depth effects.The 8Mp front camera is perfect for selfies and video calls.Also the Redmi 14C's camera software offers features like Portrait mode, Night mode, and AI-enhanced scene detection</p>
+            </div>
+            <div class=" performance-feature-content">
+                <p class="brief-feature-content">The Redmi 14C delivers seamless performance, thanks to it's powerful processor and ample storage.</p>
+                <p class="main-feature-content">The MediaTek Helio G85 processor provides a great balance between performance and power efficiency.The phone comes in various configurations, including 6GB or 8GB of RAM and 64GB or 128GB of internal storage, expandable up to 512GB using a microSD card.The Redmi 14C has a large 5000mAh battery that provides long-lasting battery life.The phone also supports 18W fast charging.</p>
+            </div>
+            <div class=" display-feature-content">
+                <p class="brief-feature-content">The Redmi 14C's display is designed to provide an immersive viewing experience</p>
+                <p class="main-feature-content">The phone features a 6.5-inch HD+ display with a resolution of 1600 x 720 pixels. The IPS LCD display offers good color accuracy and brightness, making it perfect for watching videos or browsing the web</p>
+            </div>
+        </div>
+    </section>
+    <section id="benefits">
+        <h1 class="title">Why Choose Redmi 14C ?</h1>
+        <div class="benefits-container">
+        <button class="benefits-features-1" onclick=toConvenience()>
+            <span>01</span>
+            Convenience
+        </button>
+        <button class="benefits-features-2" onclick=toCreativity()>
+            <span>02</span>
+            Creativity
+        </button>
+        <button class="benefits-features-3" onclick=toEntertainment()>
+            <span>03</span>
+            Entertainment
+        </button>
+        </div>
+        <div class="all-benefits-content">
+            <div class="convenience-benefit-content">
+                <p class="convenience-content">Stay connected and productive on-the-go with our smartphone's advanced features and long-lasting battery.</p>
+            </div>
+            <div class="creativity-benefit-content">
+                <p class="creativity-content">Unleash your creativity with our advanced camera system, allowing you to capture life's moments with stunning clarity.</p>
+            </div>
+            <div class="entertainment-benefit-content">
+                <p class="entertainment-content">Enjoy endless entertainment options, from streaming services to games, on our smartphone's large high-resolution display.</p>
+            </div>
+        </div>
+    </section>
+    <section id="specification">
+        <h1 class="title">Technical Specifications</h1>
+        <ul>
+            <li class="tech-spec">
+                <strong>Display:</strong>
+                6.52 inches, HD+ resolution
+            </li>
+            <li class="tech-spec">
+                <strong>Processor:</strong> 
+                MediaTek Helio G85
+            </li>
+            <li class="tech-spec">
+               <strong>RAM: </strong> 
+                3GB/4GB/6GB/8GB
+            </li>
+            <li class="tech-spec">
+                <strong>Storage: </strong>
+                32GB/64GB/128GB/256GB
+            </li>
+            <li class="tech-spec">
+                <strong>Camera: </strong>
+               13MP primary sensor, 5MP front camera
+            </li>
+            <li class="tech-spec">
+                <strong>Battery:</strong>
+                5000MAH, 18W fast charging
+            </li>
+        </ul>
+    </section>
+    <section id="preOrder">
+        <h1 class="title">Pre-Order Your Redmi 14c Today!</h1>
+        <form action="https://formsubmit.co/eomoniyi234@gmail.com" method="POST" id="preOrder-form">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="forexample@gmail.com" required>
+            <label for="phone-number">Phone Number:</label>
+            <input type="tel" name="phone-number" id="phone-number"  placeholder="+2349567890" required >
+            <label for="ram">RAM:</label>
+            <select name="ram" id="ram" required>
+                <option value="" disabled selected hidden>Select your preferred RAM</option>
+                <option value="3gb">3GB</option>
+                 <option value="4gb">4GB</option>
+                  <option value="8gb">8GB</option>
+                   <option value="12gb">12GB</option>
+            </select><br><br>
+            <label for="storage">Storage:</label>
+             <select name="storage" id="storage" required>
+                <option value="" disabled selected hidden>Select you preferred storage</option>
+                <option value="32gb">32GB</option>
+                 <option value="64gb">64GB</option>
+                  <option value="128gb">128GB</option>
+                   <option value="256gb">256GB</option>
+            </select><br><br>
+            <div class="btn">
+            <button type="submit" id="submit- preOrder">Pre-Order Now</button>
+            </div>
+        </form>
+    </section>
+    </main>
+    <footer>
+       <div class="copyright">
+        <p>&copy; 2025 Xiaomi. All right reserved. <a href="https://www.mi.com/global/" target="_blank">Visit Xiaomi.com</a></p>
+       </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
