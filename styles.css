@@ -272,7 +272,7 @@ nav li:first-child{
     display: none;
 }
 .tech-spec{
-    font-size: 1rem;
+    font-size: 20px;
     width: 100%;
     list-style: none;
     display: flex;
@@ -403,4 +403,9 @@ footer a:hover{
     font-size: 0.82rem;
     font-weight: 900px;
 }
+}
+@media (max-width: 400px) {
+    .tech-spec{
+font: size: 17px;
+    }
 }
